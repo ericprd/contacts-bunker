@@ -1,9 +1,9 @@
 export default function ContactDetails() {
   return (
-    <div className='mx-auto mb-10 p-10 w-full overflow-y-scroll'>
-      <div className='w-3/4 flex flex-wrap justify-center mx-auto gap-5'>
+    <div className='mx-auto mb-10 p-10 w-full overflow-y-scroll hidden sm:block'>
+      <div className='w-full flex flex-wrap justify-center mx-auto gap-5'>
         <fieldset className='border border-slate-200 rounded-lg p-4 h-fit'>
-          <legend className='p-3 font-bold text-xl'>Name:</legend>
+          <legend className='p-3 font-bold text-xl'>Name</legend>
           <table>
             <tbody className='w-72'>
               <tr>
