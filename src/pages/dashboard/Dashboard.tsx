@@ -6,10 +6,10 @@ export default function Dashboard() {
   return (
     <div className='h-full'>
       <Navbar />
-      <div className='flex h-full'>
+      <main className='flex h-full'>
         <ContactList />
         <ContactDetails />
-      </div>
+      </main>
     </div>
   );
 }

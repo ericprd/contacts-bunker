@@ -1,67 +1,101 @@
 export default function ContactDetails() {
   return (
-    <div className='w-4/5 h-full'>
-      <div className=''>
-        <span>First Name: </span>
-        <span>John</span>
-      </div>
-      <div className=''>
-        <span>Last Name: </span>
-        <span>Doe</span>
-      </div>
-      <div className=''>
-        <span>Nickname: </span>
-        <span>John</span>
-      </div>
-      <div>
-        <span>Phone: </span>
-        <span>08123456789</span>
-      </div>
-      <div>
-        <span>Email: </span>
-        <span>johndoe@mail.com</span>
-      </div>
-      <div>
-        <span>Department: </span>
-        <span>Frontend</span>
-      </div>
-      <div>
-        <span>Company: </span>
-        <span>PT. Cyber Space</span>
-      </div>
-      <div>
-        <div>
-          <span>Street: </span>
-          <span>Jl. Cyber</span>
-        </div>
-        <div>
-          <span>City: </span>
-          <span>Space</span>
-        </div>
-        <div>
-          <span>State: </span>
-          <span>East Java</span>
-        </div>
-        <div>
-          <span>Zip Code: </span>
-          <span>68822</span>
-        </div>
-        <div>
-          <span>Country: </span>
-          <span>Indonesia</span>
-        </div>
-      </div>
-      <div>
-        <span>Birthday: </span>
-        <span>11-22-1980</span>
-      </div>
-      <div>
-        <span>Notes: </span>
-        <blockquote>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ut
-          libero fuga at recusandae ullam vel, doloribus illo nulla. Molestiae
-          dolores laudantium numquam corrupti rem ipsa aperiam ullam, a quas?
-        </blockquote>
+    <div className='mx-auto mb-10 p-10 w-full overflow-y-scroll'>
+      <div className='w-3/4 flex flex-wrap justify-center mx-auto gap-5'>
+        <fieldset className='border border-slate-200 rounded-lg p-4 h-fit'>
+          <legend className='p-3 font-bold text-xl'>Name:</legend>
+          <table>
+            <tbody className='w-72'>
+              <tr>
+                <td className='p-5'>First Name:</td>
+                <td className='p-5'>Johsdfasdfsdn</td>
+              </tr>
+              <tr>
+                <td className='p-5'>Last Name:</td>
+                <td className='p-5'>Doeasdfasdfasdf</td>
+              </tr>
+              <tr>
+                <td className='p-5'>Nickname:</td>
+                <td className='p-5'>Johnsdfasd</td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+        <fieldset className='border border-slate-200 rounded-lg p-4 h-fit'>
+          <legend className='p-3 font-bold text-xl'>Contact</legend>
+          <table>
+            <tbody className='w-72'>
+              <tr>
+                <td className='p-5'>Phone:</td>
+                <td className='p-5'>08123456789</td>
+              </tr>
+              <tr>
+                <td className='p-5'>Email:</td>
+                <td className='p-5'>johndoe@email.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+        <fieldset className='border border-slate-200 rounded-lg p-4 h-fit'>
+          <legend className='p-3 font-bold text-xl'>Work</legend>
+          <table>
+            <tbody className='w-72'>
+              <tr className='p-5'>
+                <td className='p-5'>Department:</td>
+                <td className='p-5'>Frontend</td>
+              </tr>
+              <tr>
+                <td className='p-5'>Company:</td>
+                <td className='p-5'>Cyber Space inc.</td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+        <fieldset className='border border-slate-200 rounded-lg p-4 h-fit'>
+          <legend className='p-3 font-bold text-xl'>Address</legend>
+          <table>
+            <tbody className='w-72'>
+              <tr>
+                <td className='p-5'>Street:</td>
+                <td className='p-5'>Cyber road</td>
+              </tr>
+              <tr>
+                <td className='p-5'>City:</td>
+                <td className='p-5'>Space</td>
+              </tr>
+              <tr>
+                <td className='p-5'>State:</td>
+                <td className='p-5'>West Java</td>
+              </tr>
+              <tr>
+                <td className='p-5'>ZIP code:</td>
+                <td className='p-5'>45757</td>
+              </tr>
+              <tr>
+                <td className='p-5'>Country:</td>
+                <td className='p-5'>Indonesia</td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+        <fieldset className='border border-slate-200 rounded-lg p-4 h-fit'>
+          <legend className='p-3 font-bold text-xl'>Other</legend>
+          <table>
+            <tbody className='w-72'>
+              <tr>
+                <td className='p-5'>Birthday:</td>
+                <td className='p-5'>11/02/1992</td>
+              </tr>
+              <tr>
+                <td className='p-5'>Notes:</td>
+                <td className='p-5'>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sunt, qui.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
       </div>
     </div>
   );
