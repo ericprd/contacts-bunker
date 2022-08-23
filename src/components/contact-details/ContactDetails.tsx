@@ -1,6 +1,7 @@
 export default function ContactDetails() {
   return (
     <div className='mx-auto mb-10 p-10 w-full overflow-y-scroll hidden sm:block'>
+      <h1 className='text-center mb-10 text-3xl font-bold'>Contact Details</h1>
       <div className='w-full flex flex-wrap justify-center mx-auto gap-5'>
         <fieldset className='border border-slate-200 rounded-lg p-4 h-fit'>
           <legend className='p-3 font-bold text-xl'>Name</legend>

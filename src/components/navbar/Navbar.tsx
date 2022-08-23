@@ -68,7 +68,7 @@ export default function Navbar() {
   }, 1000);
 
   return (
-    <nav className='flex justify-between items-center w-full py-2 px-10 bg-slate-300 relative'>
+    <nav className='flex justify-between items-center w-full py-2 px-10 bg-slate-300 relative shadow-lg'>
       <div className='left'>
         <img src='' alt='Contact-Bunker' />
       </div>
