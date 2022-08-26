@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Notice
+
+This project is still work in progress, nothing work yet.
+
+Current progress is on layouting pages.
+
 ## Available Scripts
 
 In the project directory, you can run:
